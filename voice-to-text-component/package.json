@@ -1,0 +1,30 @@
+{
+  "name": "voice-to-text-component",
+  "version": "1.0.0",
+  "description": "A reusable React component for voice-to-text conversion with microphone button and wave animation",
+  "main": "src/VoiceToText.tsx",
+  "types": "src/VoiceToText.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "voice",
+    "text",
+    "speech",
+    "recognition",
+    "typescript"
+  ],
+  "author": "VoiceToText Component",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.0.0"
+  }
+}
