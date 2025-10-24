@@ -23,8 +23,8 @@ function App() {
           onTextChange={(text) => console.log('Current text:', text)}
           lang="en-US"
           className="my-voice-component"
-          showSaveButton={true}
-          showClearButton={true}
+          showSaveButton
+          showClearButton
           onTextSave={(text) => console.log('Saving text:', text)}
         />
         <div style={{ 
